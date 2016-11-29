@@ -1,0 +1,141 @@
+
+body {
+  background: #e9e9e9;
+}
+.shouyi__heading {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.shouyi__info {
+  padding: 0.5rem 0;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+}
+.shouyi__value {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 400;
+  color: #efeff4;
+}
+.shouyi__value span {
+  font-size: 16px;
+}
+.shouyi__rank {
+  position: relative;
+  margin: 0.3rem 0;
+}
+.shouyi__rank p {
+  margin: 0;
+}
+.shouyi__rank span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 0.3rem;
+  padding-left: 0.2rem;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  font-size: 12px;
+  color: #ff2941;
+  background: #fff;
+}
+.yuebang-box {
+  margin: -2.5rem 0.3rem 0.6rem;
+  border-radius: 10px;
+  background: #fff;
+}
+.yuebang {
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 6px;
+  margin: 0 0.3rem;
+  background: #fff;
+  box-shadow: 0px 0px 1rem #ff80131a;
+}
+.yuebang__item {
+  width: 50%;
+}
+.yuebang h3 {
+  margin: 0.2rem 0;
+  font-size: 18px;
+  text-align: center;
+  color: #ff2941;
+}
+.yuebang p {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #e9e9e9;
+}
+.yuebang p span {
+  margin: 0 0.1rem;
+  color: #929297;
+}
+.yuebang strong {
+  margin: 0 0.1rem;
+  color: #ff2941;
+}
+.day {
+  padding: 0 0.3rem;
+  margin-bottom: 0.2rem;
+  background: #fff;
+}
+.day__heading {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 14px;
+  color: #323237;
+  border-bottom: 1px solid #e9e9e9;
+}
+.day__heading span,
+.day__heading i {
+  vertical-align: middle;
+}
+.day__body {
+  display: flex;
+  padding-bottom: 0.2rem;
+}
+.day__item {
+  flex: 1 0 auto;
+  text-align: center;
+}
+.day__item p {
+  margin: 0.2rem 0;
+  font-size: 14px;
+  color: #323237;
+}
+.day__item span {
+  font-size: 16px;
+  color: #ff2941;
+}
+.day--gray .day__item span {
+  color: #929297;
+}
+.mingxi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.8rem;
+  margin-bottom: 1rem;
+  line-height: 0.8rem;
+  padding: 0 0.3rem;
+  background: #fff;
+}
+.mingxi span {
+  font-size: 14px;
+  vertical-align: middle;
+  color: #323237;
+}
+

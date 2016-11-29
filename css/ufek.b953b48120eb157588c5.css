@@ -1,0 +1,65 @@
+
+body {
+  background: #fff;
+}
+.headerbar__container {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.kefu__body {
+  padding: 0.3rem;
+}
+.qr-code {
+  width: 60%;
+  margin: 1rem auto;
+  font-size: 0;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+}
+.qr-code img {
+  width: 100%;
+}
+.qr-text {
+  text-align: center;
+  color: #999;
+}
+.qr-btn {
+  height: 50px;
+  margin-top: 0.5rem;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 0.6rem;
+  color: #fff;
+  background: #ff2941;
+}
+.qr-wechat-btn {
+  position: relative;
+  padding-right: 80px;
+  background: #f47e00;
+}
+.qr-wechat-btn strong {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 80px;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  color: #f47e00;
+  background: #fff;
+}
+

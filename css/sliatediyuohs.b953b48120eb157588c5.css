@@ -1,0 +1,31 @@
+
+body {
+  background: #fff;
+}
+.headerbar__container {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.shouyidetails__list {
+  margin: 0.3rem 0;
+}
+.shouyidetails__item {
+  height: 48px;
+  line-height: 48px;
+  padding: 0 0.3rem;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 0.3rem;
+}
+

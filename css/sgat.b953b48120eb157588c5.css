@@ -1,0 +1,87 @@
+
+.headerbar__container {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.submit-btn {
+  height: 1.2rem;
+  margin-top: 0.5rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0.6rem;
+  color: #c0b9b6;
+  background: #f5f5f5;
+}
+.submit-btn.active {
+  color: #fff;
+  background: #ff2941;
+}
+.tags__body {
+  padding: 0 0.3rem;
+}
+.tags__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+.tags__nav-info {
+  flex-grow: 1;
+}
+.tags__nav-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tags__nav-info p {
+  margin: 0;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.tags__nav-btn {
+  padding: 0.1rem 0.2rem;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 0.6rem;
+  color: #fff;
+  background: #ff2941;
+}
+.tags__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+}
+.tags__list li {
+  padding: 0.1rem 0.2rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 0.6rem;
+  color: #ababab;
+  background: #f5f5f5;
+}
+.tags__list li.active {
+  color: #fff;
+  background: #ff2941;
+}
+.skip {
+  font-size: 12px;
+  text-align: center;
+  color: #c0b9b6;
+}
+

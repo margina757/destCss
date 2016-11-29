@@ -1,0 +1,98 @@
+
+body {
+  background: #fff;
+}
+.headerbar__container {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.invite-friends__body {
+}
+.invite-friends__desc {
+  margin: 0.3rem 0;
+  text-align: center;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+.invite-friends__poster {
+  width: 100%;
+}
+.invite-friends__body .swiper-container {
+  width: 100%;
+}
+.invite-friends__body .swiper-slide {
+  width: 80%;
+}
+.invite-friends__body .share-btn {
+  width: 60%;
+  height: 1.2rem;
+  margin: 0.3rem auto;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0.1rem;
+  color: #fff;
+  background: #ff2941;
+}
+/*.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.6);
+}
+.mask.show {
+  z-index: 1;
+  opacity: 1;
+}*/
+.share__footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+  background: #ccc;
+}
+.share__footer.show {
+  transform: translateY(0);
+}
+.share__footer .share__channels {
+  display: flex;
+}
+.share__footer .share__channels li {
+  flex: 1 0 auto;
+  padding: 0.6rem 0;
+  text-align: center;
+}
+.share__footer .share__channels i {
+  width: 32px;
+  height: 32px;
+}
+.share__footer .share__channels span {
+  display: block;
+}
+.share__cancel-btn {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  background: #fff;
+}
+

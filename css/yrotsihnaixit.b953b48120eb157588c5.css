@@ -1,0 +1,66 @@
+
+body {
+  background: #e9e9e9;
+}
+.headerbar__container {
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.categories {
+  padding: 0.3rem;
+  margin-bottom: 0.3rem;
+  background: #fff;
+}
+.categories span {
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  border: 1px solid #ff2941;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 12px;
+  color: #ff2941;
+  border-radius: 1rem;
+}
+.categories span.active {
+  color: #fff;
+  background: #ff2941;
+}
+.tixian-hisotry {
+  padding: 0 0.3rem;
+  background: #fff;
+}
+.tixian-hisotry li {
+  width: 100%;
+  padding: 0.3rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.tixian-hisotry li:last-child {
+  border-bottom: 0;
+}
+.tixian-hisotry span {
+  float: right;
+  vertical-align: middle;
+}
+.tixian-hisotry p {
+  margin: 0;
+  margin-top: 0.1rem;
+  font-size: 12px;
+  color: #9e9e9e;
+}
+

@@ -1,0 +1,207 @@
+
+body {
+  background-color: #e9e9e9;
+}
+.profile__heading {
+  color: #fff;
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.profile__heading-inner {
+  padding: 0.3rem 0.3rem 3rem;
+}
+.profile__head {
+  /*display: flex;
+  justify-content: space-between;*/
+}
+.userinfo {
+  text-align: center;
+}
+.userinfo .avatar {
+  display: inline-block;
+  width: 1.12rem;
+  height: 1.12rem;
+  margin-right: 0.3rem;
+  border: 2px solid #fff;
+  font-size: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.userinfo .avatar img {
+  width: 100%;
+  height: 100%;
+}
+.userinfo__name {
+  margin-bottom: 0.2rem;
+  font-size: 22px;
+}
+.userinfo__type {
+  padding: 0.05rem 0.2rem;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: #cc4a4e;
+}
+.tools {
+  /*padding-top: 0.2rem;*/
+  text-align: right;
+}
+.tools .icon {
+  width: 32px;
+  height: 32px;
+}
+.invite {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+.invite-code {
+  font-size: 12px;
+}
+.invite-code span {
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #fff;
+  margin-left: 0.1rem;
+  border-radius: 4px;
+}
+.upgrade {
+  position: absolute;
+  right: -0.3rem;
+  padding: 0.1rem 0.2rem;
+  padding-right: 0.4rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  font-size: 12px;
+  background: #943d0e;
+}
+.dashboard {
+  position: relative;
+  z-index: 1;
+  padding: 0.2rem 0;
+  margin: 0 0.3rem;
+  margin-top: -2.5rem;
+  background: #fff;
+  border-radius: 4px;
+}
+.dashboard > div {
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+}
+.dashboard > div:last-child {
+  border-bottom: none;
+}
+.dashboard__item {
+  flex-grow: 1;
+  margin: 0.1rem;
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+}
+.dashboard__item:last-child {
+  border-right: none;
+}
+.dashboard__item strong {
+  display: block;
+  font-size: 17px;
+  color: #ff5555;
+}
+.dashboard__item span {
+  font-size: 13px;
+  color: #929297;
+}
+.tongji {
+  padding-top: 1rem;
+  margin-top: -0.7rem;
+  background: linear-gradient(to bottom, #fffaf5, #fff);
+}
+.tongji ul {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+}
+.tongji ul:last-child {
+  border-bottom: 0;
+}
+.tongji li {
+  width: 25%;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+.tongji li:last-child {
+  border-right: none;
+}
+.tongji li strong {
+  display: block;
+  margin-bottom: 0.1rem;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ff5555;
+}
+.tongji li span {
+  display: block;
+  font-size: 12px;
+  color: #929297;
+}
+.profile-banner {
+  padding: 0.3rem 0;
+}
+.profile-banner img {
+  width: 100%;
+}
+.menu {
+  padding-bottom: 2rem;
+}
+.menu-list {
+  padding: 0 0.3rem;
+  margin-bottom: 0.2rem;
+  background: #fff;
+}
+.menu-list:first-child li:first-child {
+  border-top: 1px solid #e9e9e9;
+}
+.menu li {
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #e9e9e9;
+  font-size: 14px;
+  color: #626267;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.menu li .icon {
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+.menu li span {
+  float: right;
+  margin-right: 0.2rem;
+}
+.menu li strong {
+  float: right;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff2941;
+}
+.version {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #757575;
+}
+.headerbar__icon {
+  position: relative;
+  display: inline-block;
+}
+.message__count {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+  min-width: 20px;
+  background: #fff;
+  color: #f5222d;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+

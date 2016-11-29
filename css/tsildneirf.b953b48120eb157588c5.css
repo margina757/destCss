@@ -1,0 +1,121 @@
+
+body {
+  /*background: #e9e9e9;*/
+}
+.headerbar__container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #ff2786, #ff6f56);
+}
+.headerbar {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  padding: 0 0.3rem;
+  color: #fff;
+}
+.headerbar__title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.order__navbar {
+  display: flex;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+.order__navbar li {
+  flex: 1 0 auto;
+  padding: 0.3rem 0;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.order__navbar li.active {
+  border-color: #fc281e;
+  color: #fc281e;
+}
+.friends__item {
+  padding: 0.3rem;
+  border-bottom: 1px solid #f9f9f9;
+  background-color: #fff;
+}
+.friends__thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friends__thumbnail img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.friends__info h3 {
+  margin: 0;
+  margin-bottom: 0.2rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #343434;
+}
+.friends__info h3 strong {
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 15px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #fff;
+  background-color: #fc281e;
+}
+.friends__info p {
+  margin: 0.05rem 0;
+  font-size: 12px;
+  color: #b4b4b4;
+}
+.friends__info p strong {
+  margin-right: 10px;
+  font-weight: 400;
+}
+.friends__info .blue {
+  color: #1890ff;
+}
+.friends__info .green {
+  color: #52c41a;
+}
+.friends__info .red {
+  color: #f5222d;
+}
+.friends__info .copy-btn {
+  border: 1px solid #999;
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+/*.friends__price {
+  display: flex;
+  padding-top: 0.3rem;
+  border-top: 1px solid #e9e9e9;
+  margin-top: 0.3rem;
+}
+.friends__price li {
+  flex: 1 0 auto;
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+}
+.friends__price li:last-child {
+  border-right: 0;
+}
+.friends__price p {
+  margin: 0;
+}
+.friends__price .info {
+  font-size: 12px;
+  color: #999;
+}
+.friends__price p strong {
+  font-weight: 400;
+  color: #fc281e;
+}*/
+
